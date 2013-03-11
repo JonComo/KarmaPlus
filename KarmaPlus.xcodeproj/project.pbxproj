@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8644EE2016ED4C5D00A5CF06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644EE1F16ED4C5D00A5CF06 /* UIKit.framework */; };
+		8644EE2216ED4C5D00A5CF06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644EE2116ED4C5D00A5CF06 /* Foundation.framework */; };
+		8644EE2416ED4C5D00A5CF06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644EE2316ED4C5D00A5CF06 /* CoreGraphics.framework */; };
+		8644EE2A16ED4C5D00A5CF06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8644EE2816ED4C5D00A5CF06 /* InfoPlist.strings */; };
+		8644EE2C16ED4C5D00A5CF06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8644EE2B16ED4C5D00A5CF06 /* main.m */; };
+		8644EE3016ED4C5D00A5CF06 /* KPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8644EE2F16ED4C5D00A5CF06 /* KPAppDelegate.m */; };
+		8644EE3216ED4C5D00A5CF06 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8644EE3116ED4C5D00A5CF06 /* Default.png */; };
+		8644EE3416ED4C5D00A5CF06 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8644EE3316ED4C5D00A5CF06 /* Default@2x.png */; };
+		8644EE3616ED4C5D00A5CF06 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8644EE3516ED4C5D00A5CF06 /* Default-568h@2x.png */; };
+		8644EE3916ED4C5D00A5CF06 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8644EE3716ED4C5D00A5CF06 /* MainStoryboard.storyboard */; };
+		8644EE3C16ED4C5D00A5CF06 /* KPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8644EE3B16ED4C5D00A5CF06 /* KPViewController.m */; };
+		8644EE4316ED4CB100A5CF06 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644EE4216ED4CB100A5CF06 /* Parse.framework */; };
+		8644EE4516ED4CBF00A5CF06 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644EE4416ED4CBF00A5CF06 /* AudioToolbox.framework */; };
+		8644EE4716ED4CC300A5CF06 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644EE4616ED4CC300A5CF06 /* Accounts.framework */; };
+		8644EE4916ED4CC900A5CF06 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644EE4816ED4CC900A5CF06 /* AdSupport.framework */; };
+		8644EE4B16ED4CCF00A5CF06 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644EE4A16ED4CCF00A5CF06 /* CFNetwork.framework */; };
+		8644EE4D16ED4CD800A5CF06 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644EE4C16ED4CD800A5CF06 /* CoreLocation.framework */; };
+		8644EE4F16ED4CE000A5CF06 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644EE4E16ED4CE000A5CF06 /* libsqlite3.dylib */; };
+		8644EE5116ED4CE700A5CF06 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644EE5016ED4CE700A5CF06 /* libz.1.1.3.dylib */; };
+		8644EE5316ED4CF100A5CF06 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644EE5216ED4CF100A5CF06 /* MobileCoreServices.framework */; };
+		8644EE5516ED4D0200A5CF06 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644EE5416ED4D0200A5CF06 /* QuartzCore.framework */; };
+		8644EE5716ED4D0700A5CF06 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644EE5616ED4D0700A5CF06 /* Security.framework */; };
+		8644EE5916ED4D0B00A5CF06 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644EE5816ED4D0B00A5CF06 /* Social.framework */; };
+		8644EE5B16ED4D0F00A5CF06 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644EE5A16ED4D0F00A5CF06 /* StoreKit.framework */; };
+		8644EE5D16ED4D1400A5CF06 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644EE5C16ED4D1400A5CF06 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8644EE1C16ED4C5D00A5CF06 /* KarmaPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KarmaPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8644EE1F16ED4C5D00A5CF06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8644EE2116ED4C5D00A5CF06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8644EE2316ED4C5D00A5CF06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8644EE2716ED4C5D00A5CF06 /* KarmaPlus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KarmaPlus-Info.plist"; sourceTree = "<group>"; };
+		8644EE2916ED4C5D00A5CF06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8644EE2B16ED4C5D00A5CF06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8644EE2D16ED4C5D00A5CF06 /* KarmaPlus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KarmaPlus-Prefix.pch"; sourceTree = "<group>"; };
+		8644EE2E16ED4C5D00A5CF06 /* KPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPAppDelegate.h; sourceTree = "<group>"; };
+		8644EE2F16ED4C5D00A5CF06 /* KPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPAppDelegate.m; sourceTree = "<group>"; };
+		8644EE3116ED4C5D00A5CF06 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8644EE3316ED4C5D00A5CF06 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8644EE3516ED4C5D00A5CF06 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8644EE3816ED4C5D00A5CF06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8644EE3A16ED4C5D00A5CF06 /* KPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPViewController.h; sourceTree = "<group>"; };
+		8644EE3B16ED4C5D00A5CF06 /* KPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPViewController.m; sourceTree = "<group>"; };
+		8644EE4216ED4CB100A5CF06 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Libraries/Parse.framework; sourceTree = "<group>"; };
+		8644EE4416ED4CBF00A5CF06 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8644EE4616ED4CC300A5CF06 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		8644EE4816ED4CC900A5CF06 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		8644EE4A16ED4CCF00A5CF06 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8644EE4C16ED4CD800A5CF06 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8644EE4E16ED4CE000A5CF06 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		8644EE5016ED4CE700A5CF06 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		8644EE5216ED4CF100A5CF06 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8644EE5416ED4D0200A5CF06 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8644EE5616ED4D0700A5CF06 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8644EE5816ED4D0B00A5CF06 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		8644EE5A16ED4D0F00A5CF06 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8644EE5C16ED4D1400A5CF06 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8644EE1916ED4C5D00A5CF06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8644EE5D16ED4D1400A5CF06 /* SystemConfiguration.framework in Frameworks */,
+				8644EE5B16ED4D0F00A5CF06 /* StoreKit.framework in Frameworks */,
+				8644EE5916ED4D0B00A5CF06 /* Social.framework in Frameworks */,
+				8644EE5716ED4D0700A5CF06 /* Security.framework in Frameworks */,
+				8644EE5516ED4D0200A5CF06 /* QuartzCore.framework in Frameworks */,
+				8644EE5316ED4CF100A5CF06 /* MobileCoreServices.framework in Frameworks */,
+				8644EE5116ED4CE700A5CF06 /* libz.1.1.3.dylib in Frameworks */,
+				8644EE4F16ED4CE000A5CF06 /* libsqlite3.dylib in Frameworks */,
+				8644EE4D16ED4CD800A5CF06 /* CoreLocation.framework in Frameworks */,
+				8644EE2416ED4C5D00A5CF06 /* CoreGraphics.framework in Frameworks */,
+				8644EE4B16ED4CCF00A5CF06 /* CFNetwork.framework in Frameworks */,
+				8644EE4916ED4CC900A5CF06 /* AdSupport.framework in Frameworks */,
+				8644EE4716ED4CC300A5CF06 /* Accounts.framework in Frameworks */,
+				8644EE4516ED4CBF00A5CF06 /* AudioToolbox.framework in Frameworks */,
+				8644EE2016ED4C5D00A5CF06 /* UIKit.framework in Frameworks */,
+				8644EE2216ED4C5D00A5CF06 /* Foundation.framework in Frameworks */,
+				8644EE4316ED4CB100A5CF06 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8644EE1316ED4C5D00A5CF06 = {
+			isa = PBXGroup;
+			children = (
+				8644EE2516ED4C5D00A5CF06 /* KarmaPlus */,
+				8644EE1E16ED4C5D00A5CF06 /* Frameworks */,
+				8644EE1D16ED4C5D00A5CF06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8644EE1D16ED4C5D00A5CF06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8644EE1C16ED4C5D00A5CF06 /* KarmaPlus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8644EE1E16ED4C5D00A5CF06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8644EE5C16ED4D1400A5CF06 /* SystemConfiguration.framework */,
+				8644EE5A16ED4D0F00A5CF06 /* StoreKit.framework */,
+				8644EE5816ED4D0B00A5CF06 /* Social.framework */,
+				8644EE5616ED4D0700A5CF06 /* Security.framework */,
+				8644EE5416ED4D0200A5CF06 /* QuartzCore.framework */,
+				8644EE5216ED4CF100A5CF06 /* MobileCoreServices.framework */,
+				8644EE5016ED4CE700A5CF06 /* libz.1.1.3.dylib */,
+				8644EE4E16ED4CE000A5CF06 /* libsqlite3.dylib */,
+				8644EE4C16ED4CD800A5CF06 /* CoreLocation.framework */,
+				8644EE4A16ED4CCF00A5CF06 /* CFNetwork.framework */,
+				8644EE4816ED4CC900A5CF06 /* AdSupport.framework */,
+				8644EE4616ED4CC300A5CF06 /* Accounts.framework */,
+				8644EE4416ED4CBF00A5CF06 /* AudioToolbox.framework */,
+				8644EE4216ED4CB100A5CF06 /* Parse.framework */,
+				8644EE1F16ED4C5D00A5CF06 /* UIKit.framework */,
+				8644EE2116ED4C5D00A5CF06 /* Foundation.framework */,
+				8644EE2316ED4C5D00A5CF06 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8644EE2516ED4C5D00A5CF06 /* KarmaPlus */ = {
+			isa = PBXGroup;
+			children = (
+				8644EE2E16ED4C5D00A5CF06 /* KPAppDelegate.h */,
+				8644EE2F16ED4C5D00A5CF06 /* KPAppDelegate.m */,
+				8644EE3716ED4C5D00A5CF06 /* MainStoryboard.storyboard */,
+				8644EE3A16ED4C5D00A5CF06 /* KPViewController.h */,
+				8644EE3B16ED4C5D00A5CF06 /* KPViewController.m */,
+				8644EE2616ED4C5D00A5CF06 /* Supporting Files */,
+			);
+			path = KarmaPlus;
+			sourceTree = "<group>";
+		};
+		8644EE2616ED4C5D00A5CF06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8644EE2716ED4C5D00A5CF06 /* KarmaPlus-Info.plist */,
+				8644EE2816ED4C5D00A5CF06 /* InfoPlist.strings */,
+				8644EE2B16ED4C5D00A5CF06 /* main.m */,
+				8644EE2D16ED4C5D00A5CF06 /* KarmaPlus-Prefix.pch */,
+				8644EE3116ED4C5D00A5CF06 /* Default.png */,
+				8644EE3316ED4C5D00A5CF06 /* Default@2x.png */,
+				8644EE3516ED4C5D00A5CF06 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8644EE1B16ED4C5D00A5CF06 /* KarmaPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8644EE3F16ED4C5D00A5CF06 /* Build configuration list for PBXNativeTarget "KarmaPlus" */;
+			buildPhases = (
+				8644EE1816ED4C5D00A5CF06 /* Sources */,
+				8644EE1916ED4C5D00A5CF06 /* Frameworks */,
+				8644EE1A16ED4C5D00A5CF06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KarmaPlus;
+			productName = KarmaPlus;
+			productReference = 8644EE1C16ED4C5D00A5CF06 /* KarmaPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8644EE1416ED4C5D00A5CF06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jon Como";
+			};
+			buildConfigurationList = 8644EE1716ED4C5D00A5CF06 /* Build configuration list for PBXProject "KarmaPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8644EE1316ED4C5D00A5CF06;
+			productRefGroup = 8644EE1D16ED4C5D00A5CF06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8644EE1B16ED4C5D00A5CF06 /* KarmaPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8644EE1A16ED4C5D00A5CF06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8644EE2A16ED4C5D00A5CF06 /* InfoPlist.strings in Resources */,
+				8644EE3216ED4C5D00A5CF06 /* Default.png in Resources */,
+				8644EE3416ED4C5D00A5CF06 /* Default@2x.png in Resources */,
+				8644EE3616ED4C5D00A5CF06 /* Default-568h@2x.png in Resources */,
+				8644EE3916ED4C5D00A5CF06 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8644EE1816ED4C5D00A5CF06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8644EE2C16ED4C5D00A5CF06 /* main.m in Sources */,
+				8644EE3016ED4C5D00A5CF06 /* KPAppDelegate.m in Sources */,
+				8644EE3C16ED4C5D00A5CF06 /* KPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8644EE2816ED4C5D00A5CF06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8644EE2916ED4C5D00A5CF06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8644EE3716ED4C5D00A5CF06 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8644EE3816ED4C5D00A5CF06 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8644EE3D16ED4C5D00A5CF06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8644EE3E16ED4C5D00A5CF06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8644EE4016ED4C5D00A5CF06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Libraries\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KarmaPlus/KarmaPlus-Prefix.pch";
+				INFOPLIST_FILE = "KarmaPlus/KarmaPlus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8644EE4116ED4C5D00A5CF06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Libraries\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KarmaPlus/KarmaPlus-Prefix.pch";
+				INFOPLIST_FILE = "KarmaPlus/KarmaPlus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8644EE1716ED4C5D00A5CF06 /* Build configuration list for PBXProject "KarmaPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8644EE3D16ED4C5D00A5CF06 /* Debug */,
+				8644EE3E16ED4C5D00A5CF06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8644EE3F16ED4C5D00A5CF06 /* Build configuration list for PBXNativeTarget "KarmaPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8644EE4016ED4C5D00A5CF06 /* Debug */,
+				8644EE4116ED4C5D00A5CF06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8644EE1416ED4C5D00A5CF06 /* Project object */;
+}
